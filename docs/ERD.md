@@ -34,5 +34,3 @@ erDiagram
   REPORT_LINKS { int id PK int report_version_id FK string title string url datetime created_at }
   REPORT_ACTIONS { int id PK int report_id FK int report_version_id FK int reviewer_id FK string action text comment datetime created_at }
 ```
-
-`REPORT_ACTIONS.report_version_id` is essential: it identifies which immutable submission a manager comment or approval reviewed. Project/week fields remain on each version as a snapshot while `REPORTS` holds current workflow state.
