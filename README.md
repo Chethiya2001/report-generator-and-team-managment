@@ -109,7 +109,3 @@ The corrected ERD is in [`docs/ERD.md`](docs/ERD.md). Important corrections from
 - `POST /api/reports/{id}/submit`
 - `POST /api/reports/{id}/review` (manager)
 
-## Notes and future improvements
-
-The AI assistant uses Gemini with anonymous aggregate report data and manager-only authorization. Recommended next steps are refresh-token rotation, email invitation/reset flows, audit export, server-side dashboard aggregation, and CI-backed integration tests using a disposable MySQL container.
-
