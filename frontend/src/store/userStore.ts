@@ -1,0 +1,5 @@
+import { create } from 'zustand';
+import type { User } from '../types';
+import { api, getToken } from '../services/api';
+interface State{users:User[];isInitialized:boolean;initialize:()=>Promise<void>;addUser:(u:Omit<User,'id'> & {password:string})=>Promise<void>;updateUser:(id:string,u:Partial<User>)=>Promise<void>;deactivateUser:(id:string)=>Promise<void>}
+export const useUserStore=create<State>((set,get)=>({users:[],isInitialized:false,initialize:async()=>{if(!getToken()){set({isInitialized:true});return;}try{set({users:await api<User[]>('/users'),isInitialized:true});}catch{set({isInitialized:true});}},addUser:async u=>{await api('/users',{method:'POST',body:JSON.stringify(u)});await get().initialize();},updateUser:async(id,u)=>{const old=get().users.find(v=>v.id===id);if(!old)return;await api(`/users/${id}`,{method:'PUT',body:JSON.stringify({...old,...u})});set(s=>({users:s.users.map(v=>v.id===id?{...v,...u}:v)}));},deactivateUser:async id=>{await api(`/users/${id}`,{method:'DELETE'});set(s=>({users:s.users.map(v=>v.id===id?{...v,active:false}:v)}));}}));

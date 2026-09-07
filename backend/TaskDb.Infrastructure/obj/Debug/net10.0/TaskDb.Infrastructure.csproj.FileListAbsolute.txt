@@ -1,0 +1,17 @@
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\bin\Debug\net10.0\TaskDb.Infrastructure.deps.json
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\bin\Debug\net10.0\TaskDb.Infrastructure.dll
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\bin\Debug\net10.0\TaskDb.Infrastructure.pdb
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\bin\Debug\net10.0\TaskDb.Application.dll
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\bin\Debug\net10.0\TaskDb.Domain.dll
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\bin\Debug\net10.0\TaskDb.Domain.pdb
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\bin\Debug\net10.0\TaskDb.Application.pdb
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.Infrastructure.AssemblyInfo.cs
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.I.1936F194.Up2Date
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.Infrastructure.dll
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\refint\TaskDb.Infrastructure.dll
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.Infrastructure.pdb
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\ref\TaskDb.Infrastructure.dll

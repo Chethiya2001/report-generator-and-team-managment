@@ -1,0 +1,6 @@
+@TaskDb.Api_HostAddress = http://localhost:5160
+
+GET {{TaskDb.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

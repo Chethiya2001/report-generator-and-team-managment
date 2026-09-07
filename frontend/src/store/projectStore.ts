@@ -1,0 +1,5 @@
+﻿import { create } from 'zustand';
+import type { Project } from '../types';
+import { api, getToken } from '../services/api';
+interface State{projects:Project[];isInitialized:boolean;initialize:()=>Promise<void>;addProject:(p:Omit<Project,'id'|'createdAt'>)=>Promise<void>;updateProject:(id:string,u:Partial<Project>)=>Promise<void>;deleteProject:(id:string)=>Promise<void>}
+export const useProjectStore=create<State>((set,get)=>({projects:[],isInitialized:false,initialize:async()=>{if(!getToken()){set({isInitialized:true});return;}try{set({projects:await api<Project[]>('/projects'),isInitialized:true});}catch{set({isInitialized:true});}},addProject:async p=>{const created=await api<Project>('/projects',{method:'POST',body:JSON.stringify(p)});set(s=>({projects:[...s.projects,created]}));},updateProject:async(id,u)=>{const old=get().projects.find(p=>p.id===id);if(!old)return;await api(`/projects/${id}`,{method:'PUT',body:JSON.stringify({...old,...u})});set(s=>({projects:s.projects.map(p=>p.id===id?{...p,...u}:p)}));},deleteProject:async id=>{await api(`/projects/${id}`,{method:'DELETE'});set(s=>({projects:s.projects.filter(p=>p.id!==id)}));}}));

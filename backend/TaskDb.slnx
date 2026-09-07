@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TaskDb.Api/TaskDb.Api.csproj" />
+  <Project Path="TaskDb.Application/TaskDb.Application.csproj" />
+  <Project Path="TaskDb.Domain/TaskDb.Domain.csproj" />
+  <Project Path="TaskDb.Infrastructure/TaskDb.Infrastructure.csproj" />
+</Solution>
