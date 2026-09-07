@@ -141,3 +141,4 @@ C:\Users\cheth\OneDrive\Desktop\app\.compile-check\TaskDb.Api.deps.json
 C:\Users\cheth\OneDrive\Desktop\app\.compile-check\TaskDb.Api.runtimeconfig.json
 C:\Users\cheth\OneDrive\Desktop\app\.compile-check\TaskDb.Api.dll
 C:\Users\cheth\OneDrive\Desktop\app\.compile-check\TaskDb.Api.pdb
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Api\obj\Debug\net10.0\TaskDb.Api.sourcelink.json

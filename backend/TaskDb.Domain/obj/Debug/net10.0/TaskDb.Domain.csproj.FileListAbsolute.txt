@@ -9,3 +9,4 @@ C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Domain\obj\Debug\net10.0\Task
 C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Domain\obj\Debug\net10.0\refint\TaskDb.Domain.dll
 C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Domain\obj\Debug\net10.0\TaskDb.Domain.pdb
 C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Domain\obj\Debug\net10.0\ref\TaskDb.Domain.dll
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Domain\obj\Debug\net10.0\TaskDb.Domain.sourcelink.json

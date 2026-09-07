@@ -15,3 +15,4 @@ C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net1
 C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\refint\TaskDb.Infrastructure.dll
 C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.Infrastructure.pdb
 C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\ref\TaskDb.Infrastructure.dll
+C:\Users\cheth\OneDrive\Desktop\app\backend\TaskDb.Infrastructure\obj\Debug\net10.0\TaskDb.Infrastructure.sourcelink.json
